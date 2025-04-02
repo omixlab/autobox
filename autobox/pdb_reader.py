@@ -9,7 +9,8 @@ def get_ligands_from_pdb(pdb_file, target_ligands, ignore_missing=False):
     for model in structure:
         for chain in model:
             for residue in chain:
-                if residue.resname in target_ligands:
+                residue_str = '{}{}{}'.format(residue.resname, residue.get_id()[1], chain.id).upper()
+                if residue_str in target_ligands:
                     found_ligands.add(residue.resname)
                     residues.append(residue)
     if ignore_missing is False:
