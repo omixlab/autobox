@@ -1,0 +1,2 @@
+[console_scripts]
+autobox = autobox.cli:main

@@ -1,0 +1,13 @@
+README.md
+setup.py
+autobox/__init__.py
+autobox/box_generators.py
+autobox/cli.py
+autobox/output_writer.py
+autobox/pdb_reader.py
+autobox.egg-info/PKG-INFO
+autobox.egg-info/SOURCES.txt
+autobox.egg-info/dependency_links.txt
+autobox.egg-info/entry_points.txt
+autobox.egg-info/requires.txt
+autobox.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: autobox
+Version: 0.0.1
+Summary: autobox: a cli tool to generate docking box configuration from PDB files
+Author: Frederico Schmitt Kremer
+Author-email: fred.s.kremer@gmail.com
+Requires: biopython
+Requires: pandas
+Requires-Dist: biopython
+Requires-Dist: pandas
