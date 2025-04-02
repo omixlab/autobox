@@ -1,5 +1,7 @@
 # Autobox
 
+![](logo.png)
+
 A simple command line tool to generate box coodinates for Autodock Vina.
 
 ## Installing
