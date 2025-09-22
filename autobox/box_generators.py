@@ -12,12 +12,12 @@ def get_residues_from_pdb(residues, padding, use_ca=False):
                 z_positions.append(atom.get_coord()[2])
     
     box_config = {
-        'x_center': round(sum(x_positions) / len(x_positions), 2),
-        'y_center': round(sum(y_positions) / len(y_positions), 2),
-        'z_center': round(sum(z_positions) / len(z_positions), 2),
-        'x_size': round(max(x_positions) - min(x_positions) + padding, 2),
-        'y_size': round(max(y_positions) - min(y_positions) + padding, 2),
-        'z_size': round(max(z_positions) - min(z_positions) + padding, 2)
+        'center_x': round(sum(x_positions) / len(x_positions), 2),
+        'center_y': round(sum(y_positions) / len(y_positions), 2),
+        'center_z': round(sum(z_positions) / len(z_positions), 2),
+        'size_x': round(max(x_positions) - min(x_positions) + padding, 2),
+        'size_y': round(max(y_positions) - min(y_positions) + padding, 2),
+        'size_z': round(max(z_positions) - min(z_positions) + padding, 2)
     }
 
     return box_config
